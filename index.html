@@ -1,0 +1,137 @@
+<!-- {% comment %} -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=“utf-8” />
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+    <title>Bootstrap Visualization Dashboard</title>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+
+    <!-- Bootstrap CSS -->
+    <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css” integrity=“sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=“anonymous”>
+
+    <!--CSS Link-->
+    <link rel=“stylesheet” type=“text/css” href=“style.css”>
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization-Weather Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="City_MTemp.html">Latitude vs. Max Temperature</a></li>
+                <li><a href="City_Hum.html">Latitude vs. Humidity</a></li>
+                <li><a href="City_Cloud.html">Latitude vs. Cloudiness</a></li>
+                <li><a href="City_Wind.html">Latitude vs. Wind Speed</a></li>
+                <li role="separator" class="divider"></li>
+
+            </ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a target="_blank" href="https://cmjordan333.github.io/09-Web-8-17/">Repo</a></li>
+    </ul>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container-fluid -->
+</nav>
+
+<!-- Creates the Overall Grid -->
+<div class="container">
+
+    <div class="row">
+
+
+
+        <div class="col-md-6 pad top"> <br>
+            <h3>Summary</h3> <br>
+        </div>
+           
+            <h3>Visualizations</h3> <br>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+
+            <div class="pull-left">
+                <img src="CITYVSTEMP.png" alt="Latitude vs. Max Temperature" width="200" height="175">
+            </div>
+
+            <div class="text-left">
+                <p>  </p>
+                <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities. </p> <br>
+                <p> After assembling the dataset, we used Matplotlib  to plot various aspects of weather vs. latitude. Factors we looked at included : temperature, cloudiness, wind-speed and humidity. </p> <br>
+                <p> This site provides the source data and Visualizations created as part of the analysis, as well as the explanations and descriptios of any trends and correlations witnessed.</p>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 pad top"> <br>
+
+            <div class="pull-right">
+                <a href="City_MTemp.html"><img src="CITYVSTEMP.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+                <a href="City_Wind.html"><img src="CITYLAT VS WIND SPEED.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 pad top"> <br>
+
+            <div class="pull-right">
+                <a href="City_Hum.html"><img src="CITYLATVSHUM.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+                <a href="City_Cloud.html"><img src="CITYLATVSCLOUD.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 pad top"> <br>
+            <!-- Nothing here, blank columns -->
+        </div>
+
+        <div class="col-md-3 pad top"> <br>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3 pad top"> <br>
+
+
+
+    </div>
+
+</div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://cmjordan333.github.io/09-Web-8-17/"> Chris Jordan</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+  <!-- Copyright -->
+
+
+</html>
+<!-- {% comment %} -->
